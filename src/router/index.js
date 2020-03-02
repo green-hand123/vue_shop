@@ -4,6 +4,8 @@ import Login from "../components/Login.vue"
 import Home from "../components/Home.vue"
 import Welcome from "../components/Welcome.vue"
 import Users from "../components/user/Users.vue"
+import Rights from "../components/power/Rights.vue"
+import Roles from "../components/power/Roles.vue"
 // 导入全局样式表
 import '../assets/css/global.css'
 
@@ -23,8 +25,14 @@ const routes = [{
       path:'/welcome',
       component:Welcome
     },{
-      path:'/Users',
+      path:'/users',
       component:Users
+    },{
+      path:'/rights',
+      component:Rights
+    },{
+      path:'/roles',
+      component:Roles
     }]
   }
 ]
